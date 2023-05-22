@@ -59,3 +59,17 @@ function openComposeEmail() {
     var url = "mailto:" + encodeURIComponent(emailAddress);
     window.location.href = url;
   }
+
+  // use this to read more on the about section
+  function toggleText() {
+    var textElement = document.getElementById("text");
+    var toggleButton = document.getElementById("toggleButton");
+  
+    if (textElement.style.display === "block") {
+      textElement.style.display = "none";
+      toggleButton.textContent = "Read More";
+    } else {
+      textElement.style.display = "Block";
+      toggleButton.textContent = "Read Less";
+    }
+  }
