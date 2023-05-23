@@ -473,36 +473,88 @@ span {
     background: var(--main-bg-color);
 }
 
+/* SOFT SKILLS */
+
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
     width: 87%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-    width: 57%;
+    width: 83%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-    width: 91%;
-}
-
-.skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-    width: 79%;
-}
-
-.skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
     width: 73%;
 }
 
-.skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
+.skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
+    width: 75%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
+    width: 83%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span {
     width: 68%;
 }
 
-.skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
+.skills-column:nth-child(1) .skills-content .progress:nth-child(7) .bar span {
+    width: 96%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(8) .bar span {
     width: 82%;
 }
 
+.skills-column:nth-child(1) .skills-content .progress:nth-child(9) .bar span {
+    width: 71%;
+}
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(10) .bar span {
+    width: 79%;
+}
+
+/* HARD SKILLS */
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
+    width: 7%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
+    width: 4%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
+    width: 23%;
+}
+
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-    width: 93%;
+    width: 3%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
+    width: 13%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(6) .bar span {
+    width: 7%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(7) .bar span {
+    width: 3%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(8) .bar span {
+    width: 13%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(9) .bar span {
+    width: 24%;
+}
+
+.skills-column:nth-child(2) .skills-content .progress:nth-child(10) .bar span {
+    width: 33%;
 }
 
 .contact {
